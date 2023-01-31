@@ -1,6 +1,6 @@
 # ReportAsyncTestBugs
 
-3つの事象をレポート済み
+4つの事象をレポート済み
 
 
 ## IN-28107 - Async test is not terminate
@@ -32,3 +32,10 @@ WebGL Playerにおけるテスト実行で `Task.Delay` が終了しない。
 
 * 引数1以上の場合（0は通る）
 * SetUp/TearDownでも同様だが、こちらは180secでタイムアウトでテスト失敗になる
+
+
+## IN-30529 - DelayedConstraint is not work
+
+https://unity3d.atlassian.net/servicedesk/customer/portal/2/IN-30529
+
+DelayedConstraint (After)が動作しない。
