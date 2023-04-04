@@ -57,7 +57,7 @@ namespace Tests
             throw new ArgumentException("message!");
         }
 
-        [Test]
+        [Test, Ignore("Fixed in Unity Test Framework v1.3.4")]
         public async Task ThrowsConstraint_WithAsyncTest_TestIsNotTerminate()
         {
             Assert.That(async () => await ThrowNewException(),
@@ -69,7 +69,7 @@ namespace Tests
         // UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/Coroutines.cs:17)
         // (snip)
 
-        [Test]
+        [Test, Ignore("Fixed in Unity Test Framework v1.3.4")]
         [Timeout(500)]
         public async Task TimeoutAttribute_WithAsyncTest_NotWorkTimeoutSoSuccess()
         {

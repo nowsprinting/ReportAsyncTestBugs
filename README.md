@@ -12,15 +12,17 @@ https://unity3d.atlassian.net/servicedesk/customer/portal/2/IN-28107
 * `MaxTimeAttribute`
 * `RepeatAttribute`
 * `RetryAttribute`
-* `Throws` constraint
+* ~~`Throws` constraint~~ Unity Test Framework v1.3.4で修正された
 
 
-## IN-28108 - TimeoutAttribute is not working with async test
+## ~~IN-28108 - TimeoutAttribute is not working with async test~~
 
-https://unity3d.atlassian.net/servicedesk/customer/portal/2/IN-28108
+~~https://unity3d.atlassian.net/servicedesk/customer/portal/2/IN-28108~~
 
-非同期テストでは `TimeoutAttribute` が機能しない。
-割り込まないし、テストも失敗しない
+~~非同期テストでは `TimeoutAttribute` が機能しない。
+割り込まないし、テストも失敗しない~~
+
+Unity Test Framework v1.3.4で修正された
 
 
 ## IN-28109 - Task.Delay is not terminate in async test run on WebGL player
