@@ -54,10 +54,11 @@ namespace Tests
 
         private static async Task ThrowNewException()
         {
+            await Task.Delay(100);
             throw new ArgumentException("message!");
         }
 
-        [Test, Ignore("Fixed in Unity Test Framework v1.3.4")]
+        [Test]
         public async Task ThrowsConstraint_WithAsyncTest_TestIsNotTerminate()
         {
             Assert.That(async () => await ThrowNewException(),

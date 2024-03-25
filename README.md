@@ -12,7 +12,7 @@ https://unity3d.atlassian.net/servicedesk/customer/portal/2/IN-28107
 * `MaxTimeAttribute`
 * `RepeatAttribute`
 * `RetryAttribute`
-* ~~`Throws` constraint~~ Unity Test Framework v1.3.4で修正された
+* `Throws` constraint
 
 
 ## ~~IN-28108 - TimeoutAttribute is not working with async test~~
