@@ -7,9 +7,9 @@ https://unity3d.atlassian.net/servicedesk/customer/portal/2/IN-28107
 
 非同期テストと以下の組み合わせではテストが終了しない
 
-* `MaxTimeAttribute`
-* `RepeatAttribute`
-* `RetryAttribute`
+* ~~`MaxTimeAttribute`~~ Fixed in v1.4.5
+* ~~`RepeatAttribute`~~ Fixed in v1.4.5
+* ~~`RetryAttribute`~~ Fixed in v1.4.5
 * `Throws` constraint
 
 
